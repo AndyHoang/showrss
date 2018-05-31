@@ -1,0 +1,8 @@
+[package]
+name = "showrss"
+version = "0.1.0"
+authors = ["andyhoang <andy@parcelperform.com>"]
+
+[dependencies]
+rss = {"version" = "1.5.0", features = ["from_url"]}
+error-chain = '*'
